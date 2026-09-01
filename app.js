@@ -9,7 +9,9 @@ app.get("/", (req, res) => {
 
 const start = async () => {
     try {
-        app.listen(prompt, hostname, backlog)
+        app.listen(PORT, () => {
+            `${PORT} Yes i am connected`;
+        });
     } catch (error) {
         console.log(error); 
         
