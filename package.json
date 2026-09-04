@@ -8,7 +8,7 @@
     "run": "nodemon app.js"
   },
   "keywords": [],
-  "name":
+  "name": "storage",
   "author": "",
   "license": "ISC",
   "dependencies": {
